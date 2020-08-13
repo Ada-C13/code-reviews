@@ -6,7 +6,7 @@ const calculateAverage = function calculateAverage(grades) {
     total += grades[i];
   }
 
-  let avg = total / grades.length;
+  const avg = total / grades.length;
 
   return avg;
 };
